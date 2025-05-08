@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# Initialize webcam
+# initialize webcam
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     print("Error: Could not open webcam.")
@@ -18,8 +18,8 @@ for i in range(30):  # Capture 30 frames to stabilize
 background = cv2.flip(background, 1)  # Flip horizontally for mirror effect
 
 # Define the color range for the cloth (e.g., green cloth in HSV)
-cloak_lower_color = np.array([35, 100, 100])  # lower bound for green in HSV
-cloak_upper_color = np.array([85, 255, 255])  # upper bound for green in HSV
+cloak_lower_color = np.array([35, 100, 100])  # lower bound for green in HSV (change according to you availability)
+cloak_upper_color = np.array([85, 255, 255])  # upper bound for green in HSV (change according to you availability)
 
 while True:
     ret, frame = cap.read()

@@ -11,6 +11,10 @@ Deathly hollows count - 1/3, now try to cheat death, IF YOU CAN...
 - A piece of cloth with a distinct color (e.g., green, similar to a green screen)
 - A well-lit environment for consistent color detection
 
+## OUTPUT
+
+![alt text](<Screenshot 2025-05-08 180954.png>)
+
 ## Setup Instructions
 
 ### 1. Clone the Repository or Download Files
