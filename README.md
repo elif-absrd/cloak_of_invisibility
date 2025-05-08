@@ -1,6 +1,8 @@
-# Harry Potter's Cloak of Invisibility
+# Harry's Cloak of Invisibility 
 
-This project creates a digital "Cloak of Invisibility" effect using Python and OpenCV. It uses a webcam to capture video, detects a piece of cloth (e.g., a green cloth) based on its color, and replaces the cloth area with a background image to simulate invisibility, mimicking the effect of Harry Potter's invisibility cloak.
+This project creates a digital "Cloak of Invisibility" effect using Python and OpenCV. It uses a webcam to capture video, detects a piece of cloth (e.g., a green cloth) based on its color, and replaces the cloth area with a background image to simulate invisibility, mimicking the effect of Harry Potter's invisibility cloak.<br/>
+Deathly hollows count - 1/3, now try to cheat death, IF YOU CAN...
+
 
 ## Prerequisites
 
@@ -22,13 +24,13 @@ To avoid conflicts with other Python projects, set up a virtual environment.
 #### On Windows:
 ```bash
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\Activate.ps1
 ```
 
 #### On macOS/Linux:
 ```bash
 python3 -m venv venv
-source venv\Scripts\Activate.ps1
+source venv/bin/activate
 ```
 
 After activation, your terminal should show the virtual environment name (e.g., `(venv)`).
