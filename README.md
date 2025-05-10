@@ -19,6 +19,10 @@ Deathly hollows count - 1/3, now try to cheat death, IF YOU CAN...
 
 ### 1. Clone the Repository or Download Files
 Ensure you have the following files in your project directory:
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/elif-absrd/cloak_of_invisibility.git
+```
 - `invisibility_cloak.py` (the main script)
 - `requirements.txt` (dependency list)
 
